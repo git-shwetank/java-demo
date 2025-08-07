@@ -37,7 +37,7 @@ These interfaces supply Abstract behavior to our concrete implementor _Elderberr
 
 The **ANSWER** was spot on-
 
-**Compile error**![](.\Elderberries.java.png) in Elderberries.java which says-
+**Compile error**![](./Elderberries.java.png) in Elderberries.java which says-
 
 _com.test.classes.Elderberries_ **inherits unrelated defaults** for _needsCooking()_ from _types
 com.test.interfaces.Fruit_ and _com.test.interfaces.CookedFruit_
@@ -46,7 +46,7 @@ This called for another test-
 
 Q. What if CookedFruit extends Fruit?
 
-- The compile error was vanished ![](.\CookedFruit_extendsFruit.png).
+- The compile error was vanished ![](./CookedFruit_extendsFruit.png).
 - But then the question of second part is still valid, waiting to be discovered.
 
 It was seen that _needsCooking()_ from _Fruit.java_ is overridden by _CookedFruit.java_
