@@ -12,6 +12,7 @@ However, New changes do come with some thoughtful questions like the one which i
 senior development manager. As an introspection, in my usual self, i never give a guess based answer to someone seeking
 my inputs. Hence, I apologised them to record my response to their question which is as follows:
 
+```
 Q. Do Interfaces in Java play some role in defining Polymorphic properties of OOPs?
 
 - I know that use of Generics, Method Overloading and Overriding are responsible for polymorphic behaviors. Interfaces
@@ -24,7 +25,7 @@ Now,
 
 1. Is doing above possible?
 2. If Yes, Which Interface's default method will be invoked in Class when needed.
-
+```
 And hence, Obviously upon understanding the conflict on my previous statement. I had to steer away from stating any
 response.
 
@@ -37,7 +38,8 @@ These interfaces supply Abstract behavior to our concrete implementor _Elderberr
 
 The **ANSWER** was spot on-
 
-**Compile error**![](./Elderberries.java.png) in Elderberries.java which says-
+**Compile error**
+![](./Elderberries.java.png) in Elderberries.java which says-
 
 _com.test.classes.Elderberries_ **inherits unrelated defaults** for _needsCooking()_ from _types
 com.test.interfaces.Fruit_ and _com.test.interfaces.CookedFruit_
@@ -46,7 +48,8 @@ This called for another test-
 
 Q. What if CookedFruit extends Fruit?
 
-- The compile error was vanished ![](./CookedFruit_extendsFruit.png).
+- The compile error was vanished 
+![](./CookedFruit_extendsFruit.png).
 - But then the question of second part is still valid, waiting to be discovered.
 
 It was seen that _needsCooking()_ from _Fruit.java_ is overridden by _CookedFruit.java_
