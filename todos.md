@@ -1,0 +1,5 @@
+- Use the `Executor` framework to implement thread pooling in Java.
+- Implement parallelism through use of Fork-Join and Parallel Streams in Java.
+- Use Java Native Interface to combine C++ with Java to call methods and functions of one language to another.
+- Create a `Statement` object through Java Database Connectivity to manage SQL injections to the database
+- Create a `ResultSet` from a SQL query and manipulate the data in Java.
